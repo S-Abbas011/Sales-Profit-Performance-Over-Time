@@ -13,3 +13,8 @@ Aggregates sales, profit, and order count by year, month, and category.
 Uses LAG() window functions to calculate:
 Previous month’s and previous year’s sales & profit.
 Computes MoM and YoY growth metrics. 
+
+## Key Insights
+ * Visualizes monthly and yearly growth patterns in sales and profit.
+Identifies top-performing categories over time.
+Helps track seasonal trends and detect potential slowdowns **
