@@ -6,7 +6,7 @@ An interactive dashboard visualizes the results for easier business insights.
 
 🧮 SQL Logic Summary
 '' The analysis is performed in two main steps using CTEs:
-# 1)sales_profit_performance CTE
+## 1)sales_profit_performance CTE
 Aggregates sales, profit, and order count by year, month, and category.
 
 ## 2)growth CTE
