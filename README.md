@@ -9,7 +9,7 @@ An interactive dashboard visualizes the results for easier business insights.
 # 1)sales_profit_performance CTE
 Aggregates sales, profit, and order count by year, month, and category.
 
-# 2)growth CTE
+## 2)growth CTE
 Uses LAG() window functions to calculate:
 Previous month’s and previous year’s sales & profit.
 Computes MoM and YoY growth metrics. 
