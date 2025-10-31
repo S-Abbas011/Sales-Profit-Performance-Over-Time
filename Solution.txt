@@ -1,0 +1,10 @@
+WITH sales_profit_performance as(
+Select p.category,extract(year from s.order_date) as order_year,
+extract(month from order_date) as order_month,
+sum(s.sales) as total_sales,
+sum(s.profit) as total_profit, count(s.order_id) as total_orders 
+from sales as s 
+join product as p 
+on s.product_id = p.product_id
+GROUP BY category, extract(year from s.order_date), extract(month from s.order_date)
+
